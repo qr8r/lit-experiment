@@ -1,7 +1,7 @@
 #!/bin/sh
 
-web-dev-server                  \
-  --app-index public/index.html \
-  --node-resolve                \
-  --watch                       \
+web-dev-server        \
+  --root-dir public   \
+  --node-resolve      \
+  --watch             \
   --open

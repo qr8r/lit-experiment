@@ -1,9 +1,3 @@
-import { LitElement, html } from "lit";
-
-class WebApp extends LitElement {
-  render() {
-    return html`<h1>Hello From Lit</h1>`;
-  }
-};
+import WebApp from "./components/WebApp/index.js";
 
 customElements.define("web-app", WebApp);
