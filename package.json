@@ -1,5 +1,6 @@
 {
   "name": "financeTracker",
+  "type": "module",
   "version": "0.0.1",
   "description": "Client-side only finance planning tool.",
   "main": "index.js",
@@ -7,12 +8,17 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "server": "http-server",
+    "server": "./bin/compile.sh & ./bin/server.sh",
     "test": "jest"
   },
   "devDependencies": {
-    "http-server": "^14.1.1",
+    "@web/dev-server": "^0.3.1",
     "jest": "^29.7.0",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "chartjs-web-components": "^2.8.0",
+    "lit": "^2.8.0",
+    "shoelace": "^0.1.1"
   }
 }
