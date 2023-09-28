@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "chartjs-web-components": "^2.8.0",
+    "filepond": "^4.30.4",
     "lit": "^2.8.0",
     "shoelace": "^0.1.1"
   }
