@@ -1,9 +1,11 @@
 import { LitElement, html } from "lit";
-import * as FilePond from "filepond";
+import styles from "./stylesheet.css";
 
 export default class HomeIndex extends LitElement {
+  static styles = styles;
+
   render() {
-    return FilePond.create(this.renderRoot).element;
+    return html `<h1>Form Uploader</h1>`;
   }
 };
 

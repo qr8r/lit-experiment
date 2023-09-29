@@ -8,13 +8,14 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "server": "./bin/compile.sh & ./bin/server.sh",
+    "server": "./bin/compile.sh & web-dev-server",
     "test": "jest"
   },
   "devDependencies": {
     "@web/dev-server": "^0.3.1",
     "jest": "^29.7.0",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "web-dev-server-plugin-lit-css": "^2.0.5"
   },
   "dependencies": {
     "chartjs-web-components": "^2.8.0",
